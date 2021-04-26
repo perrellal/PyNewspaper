@@ -1,8 +1,6 @@
 from newspaper import Article
 
-url = ('https://www.ilpost.it/2021/04/25/governo-draghi-recovery-fund/',
-       'https://www.ilpost.it/2021/04/26/vaccinati-stati-uniti-unione-europea-estate-ursula-von-der-leyen/',
-       'https://www.ilpost.it/2021/04/26/elezioni-albania-rama-vantaggio/')
+url = ('articles links')
 body = ''
 def WriteArticle(current_url):
     a = Article(current_url)
